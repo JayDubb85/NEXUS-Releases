@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} · NEXUS</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header><a href="{{ '/' | relative_url }}">NEXUS</a><span>Galaxy Suite Foundation</span></header>
+    <div class="layout">
+      <nav>
+        <a href="{{ '/' | relative_url }}">Overview</a>
+        <a href="{{ '/downloads.html' | relative_url }}">Downloads</a>
+        <a href="{{ '/install.html' | relative_url }}">Installation</a>
+        <a href="{{ '/release-notes.html' | relative_url }}">Release notes</a>
+        <a href="{{ '/support.html' | relative_url }}">Support</a>
+      </nav>
+      <main>{{ content }}</main>
+    </div>
+  </body>
+</html>
