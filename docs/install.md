@@ -27,3 +27,7 @@ The administrator password is not written to installer logs or placed on a comma
 The initial development configuration listens only on the local server. Network access and HTTPS certificates are configured separately before production use.
 
 NEXUS preserves database and configuration files during ordinary uninstall.
+
+## Upgrade
+
+Administrators are notified inside NEXUS when a newer stable release is published. Select **Download installer**, copy the EXE to the NEXUS server if it was downloaded from a remote workstation, and run it as an administrator. Existing accounts, database contents, and configuration are preserved. Windows rejects an installer whose version is older than the installed NEXUS version.

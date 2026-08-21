@@ -6,6 +6,13 @@ description: NEXUS release history
 
 # Release notes
 
-No public production release has been published yet.
+## Next release
 
-Release notes will identify supported Windows versions, included PostgreSQL and Apache versions, upgrade requirements, known issues, and security updates.
+- Adds an administrator-only in-app notification when a newer stable NEXUS release is available.
+- Links directly to the official Windows installer and public release details.
+- Corrects packaged version reporting so upgrade comparisons match the installer version.
+- Keeps update installation administrator-approved on the NEXUS server; the browser does not silently replace server software.
+
+## 1.0.0
+
+Initial public Windows Server release with NEXUS, PostgreSQL 18, source-built Apache, centralized authentication, and Windows service installation.
