@@ -19,7 +19,10 @@ description: Install NEXUS on Windows Server
 2. Verify its SHA-256 checksum.
 3. Run the installer as an administrator.
 4. Allow setup to install PostgreSQL, Apache, and NEXUS.
-5. Open `http://localhost:8088/` on the server for the initial local setup.
+5. In the **Create your administrator** window, enter a username and a password of 12–128 characters, confirm the password, and select **Create administrator**.
+6. After setup confirms that NEXUS is ready, open `http://localhost:8088/` and sign in with that account.
+
+The administrator password is not written to installer logs or placed on a command line. Quiet installations skip the graphical account step; create the first account locally before enabling remote access.
 
 The initial development configuration listens only on the local server. Network access and HTTPS certificates are configured separately before production use.
 
