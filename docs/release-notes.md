@@ -14,6 +14,8 @@ description: NEXUS release history
 - Keeps update installation administrator-approved on the NEXUS server; the browser does not silently replace server software.
 - Prevents long-running product telemetry streams from retaining NEXUS PostgreSQL sessions and eventually making the Hub unresponsive.
 - Adds bounded product-proxy connection waits and keeps liveness independent of the synchronous worker pool.
+- Moves synchronous registry and authentication queries off the asynchronous server loop so refreshing the Hub cannot wedge NEXUS while PostgreSQL resources are busy.
+- Serves NEXUS Hub assets without an unnecessary product-registry query.
 
 ## 1.0.0
 
