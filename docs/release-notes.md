@@ -16,6 +16,8 @@ description: NEXUS release history
 - Adds bounded product-proxy connection waits and keeps liveness independent of the synchronous worker pool.
 - Moves synchronous registry and authentication queries off the asynchronous server loop so refreshing the Hub cannot wedge NEXUS while PostgreSQL resources are busy.
 - Serves NEXUS Hub assets without an unnecessary product-registry query.
+- Stops PULSAR and other PostgreSQL-dependent product services before taking the shared database offline for a NEXUS upgrade.
+- Restores services when upgrade preparation fails and validates consecutive-version upgrades with PULSAR installed.
 
 ## 1.0.0
 
