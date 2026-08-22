@@ -8,6 +8,17 @@ description: NEXUS release history
 
 ## Next release
 
+- No unreleased changes.
+
+## 1.2.0
+
+- Adds the shared Galaxy application switcher used by hosted products.
+- Standardizes the NEXUS application-picker icons for PULSAR and SUPERNOVA.
+- Uses the shared Galaxy light/dark switch and PULSAR-style toast notifications.
+- Keeps product Download and Update actions connected to the official PULSAR and SUPERNOVA public release repositories.
+
+## 1.1.0
+
 - Adds an administrator-only in-app notification when a newer stable NEXUS release is available.
 - Links directly to the official Windows installer and public release details.
 - Corrects packaged version reporting so upgrade comparisons match the installer version.
