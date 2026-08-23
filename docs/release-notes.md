@@ -6,7 +6,7 @@ description: NEXUS release history
 
 # Release notes
 
-## 1.2.1
+## 1.2.2
 
 - Adds the NEXUS-owned native Windows file/folder picker used by Galaxy apps.
 - Runs the picker in the signed-in user's desktop session while keeping NEXUS
