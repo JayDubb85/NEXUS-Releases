@@ -6,9 +6,15 @@ description: NEXUS release history
 
 # Release notes
 
-## Next release
+## 1.2.1
 
-- No unreleased changes.
+- Adds the NEXUS-owned native Windows file/folder picker used by Galaxy apps.
+- Runs the picker in the signed-in user's desktop session while keeping NEXUS
+  and product services isolated from interactive Session 0 UI.
+- Protects picker requests with the existing NEXUS session and CSRF controls
+  and an ACL-restricted Windows named pipe instead of a new network listener.
+- Requires one Windows sign-out/sign-in after installation or upgrade to start
+  the per-user picker broker.
 
 ## 1.2.0
 

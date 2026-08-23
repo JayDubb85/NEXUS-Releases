@@ -6,6 +6,10 @@ description: Install NEXUS on Windows Server
 
 # Installation
 
+After installing or upgrading NEXUS 1.2.1 or newer, sign out of Windows and
+sign back in once. This starts the per-user Galaxy picker broker that allows
+hosted applications to display native Windows file and folder dialogs.
+
 ## Before installation
 
 - Use a supported 64-bit Windows Server.
