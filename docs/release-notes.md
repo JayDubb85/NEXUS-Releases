@@ -6,7 +6,7 @@ description: NEXUS release history
 
 # Release notes
 
-## 1.2.3
+## 1.2.4
 
 - Adds **Show details** and **Hide details** controls to the Windows installer.
 - Shows the current installer action inside setup without opening command or PowerShell windows.
