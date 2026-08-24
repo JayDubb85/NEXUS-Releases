@@ -6,6 +6,13 @@ description: NEXUS release history
 
 # Release notes
 
+## 1.2.3
+
+- Adds **Show details** and **Hide details** controls to the Windows installer.
+- Shows the current installer action inside setup without opening command or PowerShell windows.
+- Keeps the graphical initial-administrator setup visible when an account is required.
+- Adds a release-build check that prevents console-based setup helpers.
+
 ## 1.2.2
 
 - Adds the NEXUS-owned native Windows file/folder picker used by Galaxy apps.
