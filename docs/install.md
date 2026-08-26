@@ -9,6 +9,11 @@ description: Install NEXUS on Windows Server
 After installing or upgrading NEXUS 1.2.2 or newer, sign out of Windows and
 sign back in once. This starts the per-user Galaxy picker broker that allows
 hosted applications to display native Windows file and folder dialogs.
+If Browse still falls back after signing in again, inspect
+`%LOCALAPPDATA%\Galaxy\NEXUS\logs\native-picker.log`. Changing the NEXUS
+service to an administrator logon account requires a NEXUS release containing
+the hardened picker ACL; changing only a product service such as SUPERNOVA does
+not change which desktop session owns the dialog.
 
 ## Before installation
 

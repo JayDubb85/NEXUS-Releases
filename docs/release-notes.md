@@ -6,6 +6,17 @@ description: NEXUS release history
 
 # Release notes
 
+## 1.2.5
+
+- Adds **Show details** and **Hide details** controls to the Windows installer.
+- Shows the current installer action inside setup without opening command or PowerShell windows.
+- Keeps the graphical initial-administrator setup visible when an account is required.
+- Adds a release-build check that prevents console-based setup helpers.
+- Hardens the Windows picker bridge when the NEXUS service uses an
+  administrator logon account, preserves the service SID, fixes broker/API JSON
+  compatibility, and records previously silent broker errors in the signed-in
+  user's local NEXUS log directory.
+
 ## 1.2.4
 
 - Adds **Show details** and **Hide details** controls to the Windows installer.
