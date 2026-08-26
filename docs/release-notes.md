@@ -6,6 +6,15 @@ description: NEXUS release history
 
 # Release notes
 
+## 1.2.6
+
+- Replaces the PowerShell-hosted file and folder dialogs with native Windows
+  dialogs owned by the signed-in user's NEXUS picker broker.
+- Ensures Explorer dialogs open in front of the desktop instead of waiting
+  invisibly behind the browser.
+- Records broker startup, request, display, completion, and cancellation events
+  in `%LOCALAPPDATA%\Galaxy\NEXUS\logs\native-picker.log`.
+
 ## 1.2.5
 
 - Adds **Show details** and **Hide details** controls to the Windows installer.
