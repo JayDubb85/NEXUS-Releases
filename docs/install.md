@@ -12,7 +12,8 @@ hosted applications to display native Windows file and folder dialogs.
 If Browse still falls back after signing in again, inspect
 `%LOCALAPPDATA%\Galaxy\NEXUS\logs\native-picker.log`. NEXUS 1.2.6 and newer
 write broker startup, request receipt, dialog display, completion, and
-cancellation events there. Changing the NEXUS
+cancellation events there. NEXUS 1.2.7 also records whether Windows accepted
+the dialog's topmost and foreground requests. Changing the NEXUS
 service to an administrator logon account requires a NEXUS release containing
 the hardened picker ACL; changing only a product service such as SUPERNOVA does
 not change which desktop session owns the dialog.

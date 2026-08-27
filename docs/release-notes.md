@@ -6,6 +6,13 @@ description: NEXUS release history
 
 # Release notes
 
+## 1.2.7
+
+- Corrects the error returned after selecting an accessible local or UNC path.
+- Brings the actual Windows file/folder dialog to the top of the desktop when it
+  activates instead of positioning only its hidden owner window.
+- Adds activation results to `native-picker.log` for precise Windows diagnostics.
+
 ## 1.2.6
 
 - Replaces the PowerShell-hosted file and folder dialogs with native Windows
